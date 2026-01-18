@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Super Quiz App</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+        }
+        .download-card {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-radius: 15px;
+            padding: 25px;
+            margin: 20px 0;
+            border-left: 5px solid #667eea;
+        }
+        .download-card h2 {
+            margin-top: 0;
+            color: #333;
+            font-size: 20px;
+        }
+        .download-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+            transition: transform 0.2s;
+        }
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+        }
+        .file-info {
+            color: #666;
+            font-size: 14px;
+            margin: 10px 0;
+        }
+        .recommended {
+            background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+            color: #0a5f38;
+            margin-bottom: 10px;
+        }
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎮 Super Quiz App - Downloads</h1>
+        <p class="subtitle">Choose the package that best fits your needs</p>
+
+        <div class="download-card">
+            <span class="recommended">⭐ RECOMMENDED</span>
+            <h2>📦 Deployment Package (74 KB)</h2>
+            <p class="file-info"><strong>super-quiz-deployment.zip</strong></p>
+            <p>Ready-to-deploy files. Just extract and upload to GitHub Pages!</p>
+            <ul>
+                <li>✅ Built and optimized</li>
+                <li>✅ No setup required</li>
+                <li>✅ Includes deployment instructions</li>
+                <li>✅ Works on any hosting platform</li>
+            </ul>
+            <a href="super-quiz-deployment.zip" class="download-btn" download>⬇️ Download Deployment Package</a>
+        </div>
+
+        <div class="download-card">
+            <h2>📁 Source Code Package (51 KB)</h2>
+            <p class="file-info"><strong>super-quiz-app.zip</strong></p>
+            <p>Full source code for developers who want to customize the app.</p>
+            <ul>
+                <li>✅ Complete TypeScript source</li>
+                <li>✅ Modify and rebuild</li>
+                <li>✅ Includes all components</li>
+                <li>✅ Requires Node.js to build</li>
+            </ul>
+            <a href="super-quiz-app.zip" class="download-btn" download>⬇️ Download Source Code</a>
+        </div>
+
+        <div class="download-card" style="background: linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%);">
+            <h2>📖 Deployment Instructions</h2>
+            <p>Not sure how to deploy? Download the instructions guide:</p>
+            <a href="DEPLOYMENT_INSTRUCTIONS.md" class="download-btn" download>⬇️ Download Instructions</a>
+        </div>
+
+        <hr style="margin: 30px 0; border: none; border-top: 2px solid #eee;">
+        
+        <h3>🚀 Quick Start</h3>
+        <ol>
+            <li>Download <strong>super-quiz-deployment.zip</strong></li>
+            <li>Extract all files</li>
+            <li>Create a new GitHub repository</li>
+            <li>Upload all extracted files to your repo</li>
+            <li>Enable GitHub Pages (Settings → Pages → Deploy from branch)</li>
+            <li>Your app will be live in 1-2 minutes! 🎉</li>
+        </ol>
+
+        <p style="margin-top: 30px; text-align: center; color: #999; font-size: 14px;">
+            Made with ❤️ for kids' education
+        </p>
+    </div>
+</body>
+</html>
